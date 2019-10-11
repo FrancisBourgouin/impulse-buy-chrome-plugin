@@ -1,0 +1,25 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+ .sr-cta-button-row {
+    position:relative;
+}
+
+.sr-cta-button-row:hover .impulse-warning-message{
+    display:block;
+}
+
+.impulse-warning-message{
+    display:none;
+    width:100%;
+    position:absolute;
+    z-index:999;
+    background:red;
+    color:white;
+    padding:1em 0.2em;
+    text-align:center;
+    bottom:50px;
+}
+.impulse-warning-message h1{
+    margin-bottom:0.5em;
+}
